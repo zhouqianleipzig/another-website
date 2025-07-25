@@ -1,13 +1,15 @@
 project:
   type: website
-
+  output-dir: docs
+  
 website:
-  title: "another-website"
+  title: "A website"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: Second page
 
 format:
   html:
